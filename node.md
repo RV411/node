@@ -1,6 +1,5 @@
 
 
-
 npm init -y
 
 npm i express morgan sequelize pg pg-hstore
@@ -15,3 +14,5 @@ npx nodemon src/index.js
         },
 
 
+TIPOS DE DATOS
+https://sequelize.org/docs/v6/core-concepts/model-basics/
