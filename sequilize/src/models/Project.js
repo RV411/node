@@ -20,7 +20,7 @@ export const Project=sequelize.define("projects",{
     },
 },{
     timestamp:true
-});}
+});
 
 
 Project.hasMany(Task,{
@@ -30,5 +30,5 @@ Project.hasMany(Task,{
 
 Task.belongsTo(Project,{
     foreignKey:'projectId',
-    sourceKey:'id',
+    targetId:'id',
 });
